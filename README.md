@@ -1,4 +1,4 @@
-# thesispnu
+# reportpnu
 LaTeX template for Deep Learning Programming
 
 # Deep Learning Programming report
