@@ -1,0 +1,46 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\geometry{margin=1in}
+
+% Title section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Thesis Final Report}
+\fancyfoot[C]{\thepage}
+
+\title{Final Report: Analysis of Results}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+This document contains the analysis of the results presented in two research papers. The report evaluates the significance, limitations, and potential future work based on the results.
+
+\section{Analysis of Results from Paper 1}
+% Analyze the results presented in the first paper
+Discuss the implications, limitations, and possible future work related to the first paper.
+
+\section{Analysis of Results from Paper 2}
+% Analyze the results presented in the second paper
+Discuss the implications, limitations, and possible future work related to the second paper.
+
+\section*{Conclusion}
+Summarize the overall findings from both analyses and the significance of your evaluations. Provide recommendations or further research directions based on your analysis.
+
+\bibliographystyle{plain}
+\bibliography{references} % Add your .bib file for references
+
+\end{document}
